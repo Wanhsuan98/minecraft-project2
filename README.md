@@ -1,4 +1,4 @@
-# minecraft-project2
+# minecraft_project
 
 ## Project setup
 ```
