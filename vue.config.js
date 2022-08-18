@@ -1,11 +1,9 @@
-// const { defineConfig } = require('@vue/cli-service')
-// module.exports = defineConfig({
-//   transpileDependencies: true
-// })
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
 
 module.exports = {
-  publicPath: ''
-    ? '/minecraft_project2/'
-    : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
     filenameHashing: false,
 }
